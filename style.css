@@ -7,6 +7,8 @@ nav {
     max-width: 170vh;
     margin: auto;
     gap: 4vh;
+    padding-bottom: 0%;
+    margin-bottom: -30px;
 }
 
 nav img {
@@ -93,16 +95,13 @@ nav>button:hover {
 /* nav bar css done */
 
 .box1 {
-    border: 1px solid red;
     display: grid;
     width: 100%;
     margin: auto;
     grid-template-columns: 50% 50%;
 }
 
-.box1>div {
-    border: 1px solid blue;
-}
+
 
 .box1>div>svg {
     width: 100%;
@@ -117,7 +116,8 @@ nav>button:hover {
 .box1>div:nth-child(1)>h1 {
     font-size: 8.5vh;
     font-weight: lighter;
-    color: grey;
+    color: rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.205);
 }
 
 .box1>div:nth-child(1)>input {
@@ -156,13 +156,15 @@ nav>button:hover {
     color: grey;
     position: absolute;
     background-color: white;
-    left: 47vh;
+    left: 36vh;
     padding: 10px 20px;
-    margin-top: -0px;
+    margin-top: 10px;
+    font-size: 2.2vh;
 }
 
 .box1>div:nth-child(1)>hr {
     margin: 30px;
+    width: 55vh;
 }
 
 .google-btn{
@@ -174,6 +176,55 @@ nav>button:hover {
     color: white;
     border: 1px solid grey;
     background-color: white;
-    opacity: 60%;
+    color: grey;
     transition: 1s;
+    margin:0px;
+
+}
+
+.google-btn>svg{
+    position: relative;
+    top: 5px; 
+    right: 5px;
+}
+
+.google-btn:hover{
+    opacity: 50%;
+    background-color: black;
+    color: white;
+}
+
+.box2{
+    background-color: rgba(128, 128, 128, 0.137);
+    width: 185vh;
+    margin: auto;
+    padding: 4vh 8vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+.box2>div{
+padding: 0vh 4vh;
+}
+
+.box2>div>h1{
+    font-size: 7.3vh;
+    font-weight: lighter;
+    color: black;
+}
+
+.box2>div>h2{
+    font-size: 2.5vh;
+    font-weight: normal;
+    color: rgb(77, 77, 77);
+}
+
+.box2>div>div>button{
+    border-radius: 10vh;
+    border: 1px solid rgba(0, 0, 255, 0.473);
+    padding: 3vh;
+    font-size: 3.2vh;
+    font-weight: 500;
+    margin: 0.4vh 0.2vh;
 }
