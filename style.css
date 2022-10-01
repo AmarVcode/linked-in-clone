@@ -195,13 +195,17 @@ nav>button:hover {
 }
 
 .box2{
-    background-color: rgba(128, 128, 128, 0.137);
+   
     width: 185vh;
     margin: auto;
     padding: 4vh 8vh;
     display: grid;
     grid-template-columns: 40% 60%;
 
+}
+
+.box2:nth-child(2){
+     background-color: rgba(128, 128, 128, 0.137);
 }
 
 .box2>div{
@@ -222,9 +226,24 @@ padding: 0vh 4vh;
 
 .box2>div>div>button{
     border-radius: 10vh;
-    border: 1px solid rgba(0, 0, 255, 0.473);
+    border: 1px solid black;
     padding: 3vh;
     font-size: 3.2vh;
     font-weight: 500;
     margin: 0.4vh 0.2vh;
+    background-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box2>div>div>button:hover{
+   border: 1px solid blue;
+   color: blue;
+   opacity: 50%;
+}
+
+#btn-active-1{
+    border: 1px solid blue;
+    color: blue;
+    opacity: 50%;
 }
