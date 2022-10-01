@@ -12,7 +12,7 @@ nav {
 nav img {
     width: 20vh;
     height: 6vh;
-    padding:2vh;
+    padding: 2vh;
     margin-right: 50vh;
 }
 
@@ -25,7 +25,7 @@ nav svg {
     transition: 1s;
 }
 
-nav svg:hover{
+nav svg:hover {
     fill: black;
     color: black;
 }
@@ -52,7 +52,7 @@ nav>div:hover {
 
 }
 
-nav>a{
+nav>a {
     border: 1px solid white;
     border-left: 1px solid grey;
     padding: 2vh 3vh;
@@ -61,15 +61,15 @@ nav>a{
     text-decoration: none;
     color: grey;
     font-weight: 600;
-   transition: 1s;
+    transition: 1s;
 }
 
-nav>a:hover{
+nav>a:hover {
     border: 1px solid grey;
     border-radius: 20px;
 }
 
-nav>button{
+nav>button {
     width: 16vh;
     height: 7vh;
     font-size: 2.3vh;
@@ -77,13 +77,13 @@ nav>button{
     margin: 3vh 0vh;
     border-radius: 10vh;
     border: 1px solid rgb(104, 104, 223);
-    color:rgb(104, 104, 223);
+    color: rgb(104, 104, 223);
     background-color: white;
     transition: 1s;
 }
 
-nav>button:hover{
-    background-color:rgb(104, 104, 223);
+nav>button:hover {
+    background-color: rgb(104, 104, 223);
     color: white;
     cursor: pointer;
 }
@@ -92,7 +92,7 @@ nav>button:hover{
 
 /* nav bar css done */
 
-.box1{
+.box1 {
     border: 1px solid red;
     display: grid;
     width: 100%;
@@ -100,6 +100,80 @@ nav>button:hover{
     grid-template-columns: 50% 50%;
 }
 
-.box1>div{
+.box1>div {
     border: 1px solid blue;
+}
+
+.box1>div>svg {
+    width: 100%;
+}
+
+
+.box1>div:nth-child(1) {
+    padding: 8vh;
+    padding-top: 0%;
+}
+
+.box1>div:nth-child(1)>h1 {
+    font-size: 8.5vh;
+    font-weight: lighter;
+    color: grey;
+}
+
+.box1>div:nth-child(1)>input {
+    width: 55vh;
+    padding: 2vh;
+    margin: 1vh;
+    font-size: 2.5vh;
+    opacity: 80%;
+}
+
+.box1>div:nth-child(1)>p {
+    font-size: 2.4vh;
+    color: grey;
+}
+
+.sign-btn {
+    width: 60vh;
+    padding: 2vh;
+    border-radius: 10vh;
+    font-size: 3vh;
+    cursor: pointer;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    opacity: 60%;
+    transition: 1s;
+}
+
+.sign-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.box1>div:nth-child(1)>h2 {
+    text-align: center;
+    color: grey;
+    position: absolute;
+    background-color: white;
+    left: 47vh;
+    padding: 10px 20px;
+    margin-top: -0px;
+}
+
+.box1>div:nth-child(1)>hr {
+    margin: 30px;
+}
+
+.google-btn{
+    width: 60vh;
+    padding: 2vh;
+    border-radius: 10vh;
+    font-size: 3vh;
+    cursor: pointer;
+    color: white;
+    border: 1px solid grey;
+    background-color: white;
+    opacity: 60%;
+    transition: 1s;
 }
